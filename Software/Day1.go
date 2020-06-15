@@ -7,7 +7,7 @@ import (
 
 func main() {
   var rp,ip,z1,z2,a,b,c,d float64;
-	fmt.Scanf("%f %f %f", &a, &b, &c);
+	fmt.Scanf("%f\n%f\n%f\n", &a, &b, &c);
 	d = math.Pow(b, 2.0) - 4.0*a*c;
 	fmt.Println(d);
   rp=((-b)/(2.0*a));
