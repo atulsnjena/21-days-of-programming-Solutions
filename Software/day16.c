@@ -39,7 +39,7 @@ int main() {
 	for(int i=0;cont[i]!=51;i++)
 	{
 	    ctr=cont[i];
-	    if (ctr<temp && cont[i]>ctr)
+	    if (cont[i]<temp && cont[i]>max2)
 	    {
 	    max2=cohr[i];
 	    }
@@ -52,4 +52,3 @@ int main() {
     printf("%c\n%s",max,str);
     return 0;
 }
-
