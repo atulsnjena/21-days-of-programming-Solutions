@@ -39,7 +39,7 @@ int main() {
 	for(int i=0;cont[i]!=51;i++)
 	{
 	    ctr=cont[i];
-	    if (cont[i]<temp && cont[i]>max2)
+	    if (ctr<temp && cont[i]>ctr)
 	    {
 	    max2=cohr[i];
 	    }
