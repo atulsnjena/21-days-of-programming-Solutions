@@ -36,12 +36,13 @@ int main() {
 	    }
 	}
 	temp=ctr;
+	ctr=0;
 	for(int i=0;cont[i]!=51;i++)
 	{
-	    ctr=cont[i];
-	    if (cont[i]<temp && cont[i]>max2)
+	    if (cont[i]<temp && cont[i]>ctr)
 	    {
 	    max2=cohr[i];
+	    ctr=cont[i];
 	    }
 	}
 	for(int i=0;str[i]!='\0';i++)
