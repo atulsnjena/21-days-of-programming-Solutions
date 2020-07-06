@@ -14,5 +14,5 @@ def fact(n):
     for i in range(2, n+1): 
         f = f * i 
     return f
-P=nCr(10,1)*(p**1)*((1-p)**(10-1))
+P=nCr(n,1)*(p**1)*((1-p)**(n-1))
 print(P)
