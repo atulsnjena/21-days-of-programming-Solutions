@@ -8,7 +8,7 @@ print("(0,0)",end=' ')
 while xt!=rq and yt!=rq:
     if x>y and xt == 0:
         xt=x
-    elif yt == 0:
+    elif x<y and yt == 0:
         yt=y
     elif xt==0 and yt>x:
         xt=x
